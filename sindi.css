@@ -1,0 +1,151 @@
+body {padding: 0;
+ margin: 0;
+ }      
+        
+.container  {
+    background-color: #90411A;
+    
+      min-height: 100vh;
+     
+}
+
+ .item {
+     background-color: #E79420;
+    
+}
+
+
+.sb_item {
+    background-color: #80E742;
+     
+}
+
+
+.fl{
+    display: flex;
+    border: yellow 2px solid;
+}
+
+.fl_dir_col{
+    flex-direction: column;}
+
+
+.m5 {margin: 5px;}
+.p5 {padding: 5px;}
+
+ 
+  
+.vt_zm{
+     position: absolute;
+}
+
+.vzmtit_con{
+    position:absolute;
+    border: 2px white solid;
+    height: 29%;
+    width: 30px;
+}
+
+.vzmtit_con_m{
+    position:absolute;
+    border: 2px white solid;
+    height: 19%;
+    width: 30px;
+}
+
+.vzmtit_con_s{
+    position:absolute;
+    border: 2px white solid;
+    height: 9%;
+    width: 30px;
+}
+
+.v_zm_title{
+    position: absolute;
+     transform: rotate(-90deg);  
+     left:97px;
+     top: 20%;
+     padding: 0;
+     float: left;
+     height:200px;
+     width:5px;
+     color: white;
+    font-size: 1.5em;
+}
+
+.v_zm_title_m{
+    position: absolute;
+     transform: rotate(-90deg);  
+     left:92px;
+     
+     padding: 0;
+     float: left;
+     height:190px;
+     width:5px;
+     color: white;
+    font-size: 1.5em;
+}
+
+.v_zm_title_s{
+     position: relative;
+     transform: rotate(-90deg);  
+     float: left;
+    
+     left:55px; 
+     height:115px;
+     width:5px;
+     color: white;
+     font-size: 1.5em;
+    
+    
+     
+}
+.jsc_c {
+    justify-content: center;
+}
+
+.v_zm_bod{
+    position: relative;
+     padding-top: 5px;
+    margin-left: 40px;
+    flex-wrap: wrap;
+    font-size: 1.2em;
+}
+
+.col_no{
+    background-color: darksalmon;
+}
+
+.jsc_spb{
+    justify-content: space-between; }
+
+.jsc_arnd{
+    justify-content: space-around; }
+.jsc_spev{
+    justify-content: space-evenly; }
+.jsc_spb{
+    justify-content: space-between; }
+
+.flg0{flex-grow: 0;}
+.flg1{flex-grow: 1;}
+.flg2{flex-grow: 2;}
+.flg3{flex-grow: 3;}
+
+.jsc_spb{
+    justify-content: space-between; }
+.w10 {width: 10%;}
+.h10{height: 10%;}
+.w20 {width: 20%;}
+.h20{height: 20%;}
+.w30 {width: 30%;}
+.h30{height: 30%;}
+.w50 {width: 50%;}
+.h50{height: 50%;}
+.w1 {width: 100%;}
+.h1 {height: 100%;}
+
+.alg_it_c{
+    align-items: center;
+}
+
+.alg_cnt{align-content:center;}
